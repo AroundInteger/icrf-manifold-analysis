@@ -1,0 +1,39 @@
+icrf-manifold-analysis/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── setup.py
+├── docs/
+│   ├── conversation_log.md
+│   ├── theoretical_background.md
+│   └── images/
+├── src/
+│   ├── __init__.py
+│   ├── manifold_learning/
+│   │   ├── __init__.py
+│   │   ├── cell_cycle_analyzer.py
+│   │   └── transition_dynamics.py
+│   ├── data_processing/
+│   │   ├── __init__.py
+│   │   ├── flow_data_loader.py
+│   │   └── preprocessing.py
+│   └── visualization/
+│       ├── __init__.py
+│       └── polyploidy_garage.py
+├── matlab_code/
+│   ├── original_newton_raphson/
+│   └── data_conversion/
+├── data/
+│   ├── raw/
+│   │   ├── 0hr_control.fcs
+│   │   ├── 24hr_icrf.fcs
+│   │   └── 42hr_recovery.fcs
+│   ├── processed/
+│   └── examples/
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_manifold_learning_demo.ipynb
+│   └── 03_icrf_analysis.ipynb
+├── tests/
+└── examples/
+    └── quick_start_guide.py
